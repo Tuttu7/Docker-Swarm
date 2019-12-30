@@ -32,7 +32,7 @@ overall progress: 1 out of 1 tasks
 1/1: running   [==================================================>] 
 verify: Service converged 
 ```
-### Creating redis service
+#### Creating redis service
 ```
 [root@ip-172-31-39-46 ~]# docker service create --name redis --network wpnet --replicas 1 redis:latest
 k688dg6a844b9yw2de1140ppj
